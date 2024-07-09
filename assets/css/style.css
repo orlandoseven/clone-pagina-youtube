@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Roboto", sans-serif;
+}
+#container {
+  display: flex;
+  column-gap: 20px;
+  margin: 18px 50px;
+}
+
+header {
+  width: 100%px;
+  height: 60px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.icone-left {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+}
+.icone-left li {
+  padding: 10px;
+}
+.cabecalho .pesquisa {
+  display: flex;
+  margin: auto;
+}
+.cabecalho .pesquisa input {
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  padding-left: 10px;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid rgb(184, 179, 179);
+}
+.cabecalho .pesquisa button {
+  width: 60px;
+  padding: 5px;
+  border-radius: 0 30px 30px 0;
+  border: 1px solid rgb(184, 179, 179);
+}
+
+.icone-right {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.icone-right li {
+  padding: 10px;
+}
+
+.conteudo-video {
+  width: 750px;
+  margin-left: 20px;
+}
+
+.conteudo-video iframe {
+  width: 100%;
+  border-radius: 15px;
+}
+.conteudo-video h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.interacao {
+  display: flex;
+  width: 780px;
+  margin-bottom: 5px;
+}
+.interacao-social {
+  display: flex;
+  align-items: center;
+}
+.interacao-social span p {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.interacao-social span #nr-inscritos {
+  font-weight: 400;
+  margin-left: 10px;
+}
+#inscricao {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 9px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.avaliacao {
+  background-color: rgba(81, 81, 81, 0.1);
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  color: #b6b8bc;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  margin-left: 200px;
+}
+
+.avaliacao button {
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  padding: 7px 18px;
+}
+
+.avaliacao button img {
+  width: 16px;
+}
+#compartilhar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(81, 81, 81, 0.1);
+  border-radius: 20px;
+  border: none;
+  padding: 5px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#compartilhar img {
+  width: 24px;
+}
+
+.social-icon img {
+  width: 20px;
+}
+.info {
+  background-color: rgba(81, 81, 81, 0.1);
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.info .views {
+  font-weight: 600;
+  font-size: 14px;
+}
+.info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+}
+.info .link-curso {
+  color: #4285f4;
+}
+strong {
+  font-size: 14px;
+}
+.video-laterais {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  gap: 6px;
+}
+.mix-videos {
+  display: flex;
+  gap: 10px;
+}
+.mix-videos iframe {
+  width: 180px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+}
+.mix-videos span {
+  line-height: 18px;
+}
+.mix-videos span h5 {
+  margin-bottom: 5px;
+}
+.mix-videos span p {
+  font-size: 12px;
+}
